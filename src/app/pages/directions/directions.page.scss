@@ -14,7 +14,20 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .img-container {
+    color: #007871;
+    text-align: center;
+    background: #cce4e2;
+    margin: 10% 0;
+    padding: 3%;
+  }
   .custom-footer {
     color: #007871;
     text-align: center;
+  }
+
+  .title-container{
+    padding: 3%;
+    display: flex;
+    border-bottom: 1px solid #007871;
   }

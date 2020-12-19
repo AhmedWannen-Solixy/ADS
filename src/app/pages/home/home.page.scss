@@ -31,5 +31,10 @@
   
   filter: invert(40%) sepia(141%) saturate(415%) hue-rotate(119deg) brightness(107%) contrast(83%);
 }
+span{
+  color: var(--ion-color-primary);
+}
 
-
+ion-footer{
+  position: unset;
+}

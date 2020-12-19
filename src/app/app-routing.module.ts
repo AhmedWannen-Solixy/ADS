@@ -14,7 +14,15 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'directions',
+    loadChildren: () => import('./pages/directions/directions.module').then( m => m.DirectionsPageModule)
   },
+  {
+    path: 'chauffeur-menu',
+    loadChildren: () => import('./pages/chauffeur-menu/chauffeur-menu.module').then( m => m.ChauffeurMenuPageModule)
+  },
+
 ];
 
 @NgModule({

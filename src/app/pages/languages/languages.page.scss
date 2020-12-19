@@ -1,0 +1,23 @@
+.container {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .logo {
+    background: #fff;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    text-align: center;
+  }
+  .custom-footer {
+    --background: transparent;
+    color: #fff;
+    text-align: center;
+    --border-width: 0 !important;
+  }
+  

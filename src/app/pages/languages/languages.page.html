@@ -1,9 +1,125 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>languages</ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content [fullscreen]="true">
+  <div class="logo">
+    <img src="assets/img/icon-home.png" alt="">
+  </div>
+    <div class="container">
+      <ion-card routerLink="/languages">
+        <ion-card-header class="ion-text-center" >
+          <ion-buttons start>
+            <button ion-button (click)="GoHome()">
+              <ion-icon name="log-out"></ion-icon>
+            </button>
+          </ion-buttons>
+          <ion-label  color="primary">CHOOSE</ion-label>
+       
+        </ion-card-header>
+        <ion-card-content>
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/france.svg"></ion-img>
 
-<ion-content>
+                </div>
+              </ion-col>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/262-united-kingdom.svg"></ion-img>
+                </div>
+              </ion-col>
+            </ion-row>
 
-</ion-content>
+            <ion-row>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/066-germany.svg"></ion-img>
+
+                </div>
+              </ion-col>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/044-spain.svg"></ion-img>
+                </div>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/025-lithuania.svg"></ion-img>
+
+                </div>
+              </ion-col>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/053-hungary.svg"></ion-img>
+                </div>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/108-poland.svg"></ion-img>
+
+                </div>
+              </ion-col>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/050-romania.svg"></ion-img>
+                </div>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/061-czech-republic.svg"></ion-img>
+
+                </div>
+              </ion-col>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/135-bulgaria.svg"></ion-img>
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/119-turkey.svg"></ion-img>
+
+                </div>
+              </ion-col>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/228-russia.svg"></ion-img>
+                </div>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <div>
+                  <ion-img src="assets/flags/011-italy.svg"></ion-img>
+
+                </div>
+              </ion-col>
+              <ion-col>
+                <div>
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <div class="copy-rght">
+     
+    </div>
+  
+  </ion-content>
+  <ion-footer >
+    <ion-toolbar position="bottom" mode="ios" class="custom-footer">
+      CopyRight: SPED-Boulogne Calais -Varsion 2019.12-17
+    </ion-toolbar>
+  </ion-footer>

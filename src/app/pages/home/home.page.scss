@@ -1,0 +1,40 @@
+.container {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.logo {
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  text-align: center;
+}
+.custom-footer {
+  --background: transparent;
+  color: #fff;
+  text-align: center;
+  --border-width: 0 !important;
+}
+.img-container {
+  background: #cce4e2;
+  color: var(--ion-color-primary);
+  margin: 10% 0;
+}
+.list-img {
+  width: 40%;
+  height: 40%;
+  
+  filter: invert(40%) sepia(141%) saturate(415%) hue-rotate(119deg) brightness(107%) contrast(83%);
+}
+span{
+  color: var(--ion-color-primary);
+}
+
+ion-footer{
+  position: unset;
+}

@@ -20,3 +20,16 @@
   text-align: center;
   --border-width: 0 !important;
 }
+.img-container {
+  background: #cce4e2;
+  color: var(--ion-color-primary);
+  margin: 10% 0;
+}
+.list-img {
+  width: 40%;
+  height: 40%;
+  
+  filter: invert(40%) sepia(141%) saturate(415%) hue-rotate(119deg) brightness(107%) contrast(83%);
+}
+
+

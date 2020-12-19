@@ -11,16 +11,17 @@ const routes: Routes = [
     loadChildren: () => import('./pages/languages/languages.module').then( m => m.LanguagesPageModule)
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },  {
     path: 'directions',
     loadChildren: () => import('./pages/directions/directions.module').then( m => m.DirectionsPageModule)
   },
   {
     path: 'chauffeur-menu',
     loadChildren: () => import('./pages/chauffeur-menu/chauffeur-menu.module').then( m => m.ChauffeurMenuPageModule)
+  },
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
   },
 
 ];

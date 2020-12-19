@@ -21,9 +21,8 @@
   --border-width: 0 !important;
 }
 .img-container {
-  background: #cce4e2;
-  color: var(--ion-color-primary);
-  margin: 10% 0;
+  color: #007871;
+  text-align: center;
 }
 .list-img {
   width: 40%;
@@ -35,6 +34,3 @@ span{
   color: var(--ion-color-primary);
 }
 
-ion-footer{
-  position: unset;
-}

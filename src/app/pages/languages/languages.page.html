@@ -4,32 +4,15 @@
   </div>
   <div class="container">
     <ion-card>
-      <ion-card-header class="ion-text-center crd-header">
-        <ion-grid>
-          <ion-row>
-            <ion-col>
-              <div>
-                <ion-button routerLink="/home"
-                  color="lowPrimary"
-                  class="btn"
-                  slot="start"
-                  ion-button
-                  icon-only
-                  clear
-                >
-                  <ion-icon class="icon" name="home"></ion-icon>
-                </ion-button>
-              </div>
-            </ion-col>
-            <ion-col>
-              <div class="choose">
-                <ion-label color="primary">CHOOSE</ion-label>
-              </div>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
+        <ion-card-header>
+          <div class="title-container" routerLink="/home">
+            <div class="icon-container">
+              <ion-icon name="home-outline" color="primary"></ion-icon>
+            </div>
+            <div class="choose"><span>Choose</span></div>
+          </div>
       </ion-card-header>
-      <hr class="solid" />
+   
 
       <ion-card-content class="flag_container">
         <ion-grid>

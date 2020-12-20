@@ -17,6 +17,7 @@
 
       <ion-card-content>
         <div class="card-content">
+          <div>Veuillez remdivlir les 4 champs ci-dessous<br> [Obligatoires]</div>
           <form [formGroup]="exportForm" style="margin: 10px 5px;">
 
             <p>Plaque d'immatruculation avant</p>
@@ -36,27 +37,48 @@
             <ion-item class="background-transparent" lines="none">
               <ion-input formControlName="place_parking"></ion-input>
             </ion-item>
-
+            <div class="validation-errors">
+              <ng-container *ngFor="let validation of validationMessages.place_parking">
+                <div
+                  *ngIf="exportForm.get('place_parking').hasError(validation.type) && (exportForm.get('place_parking').dirty || exportForm.get('place_parking').touched)">
+                  <ion-icon name="information-circle-outline"></ion-icon> {{ validation.message }}
+                </div>
+              </ng-container>
+            </div>
             <p>Numéro de votre Téléphone mobile/GSM</p>
             <ion-item class="background-transparent" lines="none">
               <ion-input formControlName="tel_mobile" type="number"> </ion-input>
             </ion-item>
-
+            <div class="validation-errors">
+              <ng-container *ngFor="let validation of validationMessages.tel_mobile">
+                <div
+                  *ngIf="exportForm.get('tel_mobile').hasError(validation.type) && (exportForm.get('tel_mobile').dirty || exportForm.get('tel_mobile').touched)">
+                  <ion-icon name="information-circle-outline"></ion-icon> {{ validation.message }}
+                </div>
+              </ng-container>
+            </div>
             <p>Numéro de votre société de transport</p>
             <ion-item class="background-transparent" lines="none">
               <ion-input formControlName="societe_transport" type="tel"> </ion-input>
             </ion-item>
-
+            <div class="validation-errors">
+              <ng-container *ngFor="let validation of validationMessages.societe_transport">
+                <div
+                  *ngIf="exportForm.get('societe_transport').hasError(validation.type) && (exportForm.get('societe_transport').dirty || exportForm.get('societe_transport').touched)">
+                  <ion-icon name="information-circle-outline"></ion-icon> {{ validation.message }}
+                </div>
+              </ng-container>
+            </div>
             <ion-radio-group formControlName="declarant">
-              <ion-item lines="none" class="check-douane">   
-                <ion-radio value="oui" mode="md"></ion-radio>
+              <ion-item lines="none" class="check-douane">
+                <ion-radio value="oui" mode="md" slot="start"></ion-radio>
                 <ion-label>Je suis attendu par un déclarant en Douane</ion-label>
-             
+
               </ion-item>
               <ion-item lines="none" class="check-douane">
-                <ion-radio value="nom" mode="md"></ion-radio>
+                <ion-radio value="nom" mode="md" slot="start"></ion-radio>
                 <ion-label>Je ne suis pas attendu par un déclarant en Douane</ion-label>
-               
+
               </ion-item>
             </ion-radio-group>
             <ion-button class="save-button" mode="md" (click)="logForm()">Enregistrer</ion-button>

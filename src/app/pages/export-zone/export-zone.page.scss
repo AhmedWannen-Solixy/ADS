@@ -65,8 +65,22 @@ overflow-y: scroll;
   width: 70%;
 margin: 20px 0 5px;
 }
+.check-douane{
+  ion-label{
+    font-size: 13px;
+    color: var(--ion-color-primary);
+  }
+  ion-radio{
+    margin: 3px;
+  }
+}
 p{
   margin-top: 20px;
+}
+.validation-errors{
+  color: #fecd23;
+  text-align: start;
+  margin-left: 10px;
 }
 .check-douane{
   --padding-start: 0;

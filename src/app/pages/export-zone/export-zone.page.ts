@@ -17,7 +17,7 @@ export class ExportZonePage implements OnInit {
     const emailPattern = new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
 
     this.exportForm = new FormGroup({
-      immatruculation: new FormControl('', Validators.required),
+      immatruculation: new FormControl('', [Validators.required]),
       place_parking: new FormControl('', Validators.required),
       societe_transport: new FormControl('', Validators.required),
       tel_mobile: new FormControl('', Validators.required),
@@ -31,7 +31,7 @@ export class ExportZonePage implements OnInit {
 
   initMessages() {
     this.validationMessages = {
-      immatriculation: [
+      immatruculation: [
         { type: 'required', message: 'Ce champ est obligatoire.' },
 
       ],

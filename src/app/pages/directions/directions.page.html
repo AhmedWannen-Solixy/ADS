@@ -3,31 +3,48 @@
     <img src="assets/img/icon-home.png" alt="">
   </div>
   <div class="container">
-    <ion-card routerLink="/languages">
+    <ion-card>
       <ion-card-header>
-        <div class="title-container">
-          <div>
-            <ion-icon name="home-outline"></ion-icon>
+        <div class="title-container" routerLink="/home">
+          <div class="icon-container">
+            <ion-icon name="home-outline" color="primary"></ion-icon>
           </div>
-          <div style="width: 100%;"><span>Choose</span></div>
+          <div class="choose"><span>Choose</span></div>
         </div>
 
       </ion-card-header>
       <ion-card-content>
-       
+
 
         <div class="img-container">
-          <div>
+          <ion-row>
+            <ion-col><img src="assets/flags/en.jpg" alt=""></ion-col>
+            <ion-col></ion-col>
+            <ion-col><img src="assets/flags/en.jpg" alt=""></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><b>CALAIS</b></ion-col>
+            <ion-col>
+              <ion-icon name="arrow-forward-outline" color="primary"></ion-icon>
+            </ion-col>
+            <ion-col><b>DOVER</b></ion-col>
+          </ion-row>
 
-          </div>
 
-          <ion-label><b>CHAUFFEURS</b></ion-label>
         </div>
         <div class="img-container">
-          <div>
-
-          </div>
-          <ion-label><b> RDE / COMMIS</b></ion-label>
+          <ion-row>
+            <ion-col><img src="assets/flags/en.jpg" alt=""></ion-col>
+            <ion-col></ion-col>
+            <ion-col><img src="assets/flags/en.jpg" alt=""></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><b>DOVER</b></ion-col>
+            <ion-col>
+              <ion-icon name="arrow-forward-outline" color="primary"></ion-icon>
+            </ion-col>
+            <ion-col><b>CALAIS</b></ion-col>
+          </ion-row>
         </div>
       </ion-card-content>
 

@@ -25,9 +25,32 @@
     color: #007871;
     text-align: center;
   }
+  
+  .icon-container{
+    padding: 3%;
+    background: #cce4e2;
+    border-radius: 6px;
+    ion-icon{
+        height: 30px;
+        width: 30px;
+    }
+  }
+  .choose{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: var(--ion-color-primary);
+    font-weight: BOLD;
+    font-size: 16px;
+  }
 
   .title-container{
     padding: 3%;
     display: flex;
     border-bottom: 1px solid #007871;
+  }
+  img{
+      height: 33px;
+      width: 55px;
   }

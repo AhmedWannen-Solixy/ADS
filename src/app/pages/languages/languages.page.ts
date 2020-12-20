@@ -20,6 +20,7 @@ export class LanguagesPage implements OnInit {
   pickFlag(flag:string){
 
     this.translate.setDefaultLang(flag);
+    
       switch(flag) { 
         case "fr": { 
           localStorage.setItem('lng',  flag);

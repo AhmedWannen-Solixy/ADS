@@ -17,36 +17,35 @@ export class ExportZonePage implements OnInit {
     const emailPattern = new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
 
     this.exportForm = new FormGroup({
-      lastname: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(25)]),
-      firstname: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(25)]),
-      email: new FormControl('', [Validators.required, Validators.pattern(emailPattern)]),
-      profession: new FormControl('', Validators.required),
-      tel_portable: new FormControl('', Validators.required),
-      tel_fixe: new FormControl('', Validators.required),
-      
+      immatruculation: new FormControl('', Validators.required),
+      place_parking: new FormControl('', Validators.required),
+      societe_transport: new FormControl('', Validators.required),
+      tel_mobile: new FormControl('', Validators.required),
+      declarant: new FormControl('oui')
     });
   }
-
+  logForm(){
+    console.log(this.exportForm.value);
+    
+  }
 
   initMessages() {
     this.validationMessages = {
-      firstname: [
-        { type: 'required', message: 'Ce champ est obligatoire.' },
-        { type: 'minlength', message: 'Veuillez fournir au moins trois caractères.' },
-        { type: 'maxlength', message: 'Veuillez fournir au plus 25 caractères.' }
-      ],
-      lastname: [
-        { type: 'required', message: 'Ce champ est obligatoire.' },
-        { type: 'minlength', message: 'Veuillez fournir au moins trois caractères.' },
-        { type: 'maxlength', message: 'Veuillez fournir au plus 25 caractères.' }
-      ],
-      profession: [
+      immatriculation: [
         { type: 'required', message: 'Ce champ est obligatoire.' },
 
       ],
-      email: [
+      place_parking: [
         { type: 'required', message: 'Ce champ est obligatoire.' },
-        { type: 'pattern', message: 'Veuillez entrer une adresse e-mail valide' }
+
+      ],
+      societe_transport: [
+        { type: 'required', message: 'Ce champ est obligatoire.' },
+
+      ],
+      tel_mobile: [
+        { type: 'required', message: 'Ce champ est obligatoire.' },
+
       ]
 
     };

@@ -1,5 +1,5 @@
 .container {
-  width: 80%;
+ // width: 80%;
   margin: 10% auto;
   text-align: center;
   color: var(--ion-color-primary);
@@ -9,7 +9,7 @@ ion-card-content {
 }
 .logo {
   background: #fff;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
@@ -47,9 +47,29 @@ ion-card-content {
   display: flex;
   border-bottom: 1px solid #007871;
 }
+.card-content{
+height: 50vh;
+overflow-y: scroll;
+}
 .background-transparent {
   border: 1px solid #007871;
   border-radius: 7px;
+  --background: transparent;
+  --ripple-color: transparent;
+  --background-activated: transparent;
+}
+.save-button{
+  --background: #fecd23;
+  color: var(--ion-color-primary);
+  --border-radius: 7px;
+  width: 70%;
+margin: 20px 0 5px;
+}
+p{
+  margin-top: 20px;
+}
+.check-douane{
+  --padding-start: 0;
   --background: transparent;
   --ripple-color: transparent;
   --background-activated: transparent;

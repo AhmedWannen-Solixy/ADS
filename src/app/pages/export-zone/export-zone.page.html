@@ -16,48 +16,55 @@
       </ion-card-header>
 
       <ion-card-content>
-        <form [formGroup]="exportForm" style="margin: 10px 5px;">
+        <div class="card-content">
+          <form [formGroup]="exportForm" style="margin: 10px 5px;">
 
-          <p >Plaque d'immatruculation avant</p>
-          <ion-item class="background-transparent" lines="none">
-           
-            <ion-input formControlName="lastname" ></ion-input>
-          </ion-item>
-          <div class="validation-errors">
-            <ng-container *ngFor="let validation of validationMessages.lastname">
-              <div
-                *ngIf="exportForm.get('lastname').hasError(validation.type) && (exportForm.get('lastname').dirty || exportForm.get('lastname').touched)">
-                <ion-icon name="information-circle-outline"></ion-icon> {{ validation.message }}
-              </div>
-            </ng-container>
-          </div>
-  
-  
-          <p>Numéro de votre place de parking</p>
-          <ion-item class="background-transparent" lines="none">
-         
-            <ion-input formControlName="firstname" ></ion-input>
-          </ion-item>
-  
-         
-  
-          <p>Numéro de votre Téléphone mobile/GSM</p>
-          <ion-item class="background-transparent" lines="none">
-                     <ion-input formControlName="email" type="tel"> </ion-input>
-          </ion-item>
-       
-  
-  
-  
-          <p>Numéro de votre société de transport</p>
-          <ion-item class="background-transparent" lines="none">
-                        <ion-input formControlName="tel_fixe" type="tel" > </ion-input>
-          </ion-item>
-        
-         
-  
-        </form>
-       
+            <p>Plaque d'immatruculation avant</p>
+            <ion-item class="background-transparent" lines="none">
+
+              <ion-input formControlName="immatruculation"></ion-input>
+            </ion-item>
+            <div class="validation-errors">
+              <ng-container *ngFor="let validation of validationMessages.immatruculation">
+                <div
+                  *ngIf="exportForm.get('immatruculation').hasError(validation.type) && (exportForm.get('immatruculation').dirty || exportForm.get('immatruculation').touched)">
+                  <ion-icon name="information-circle-outline"></ion-icon> {{ validation.message }}
+                </div>
+              </ng-container>
+            </div>
+            <p>Numéro de votre place de parking</p>
+            <ion-item class="background-transparent" lines="none">
+              <ion-input formControlName="place_parking"></ion-input>
+            </ion-item>
+
+            <p>Numéro de votre Téléphone mobile/GSM</p>
+            <ion-item class="background-transparent" lines="none">
+              <ion-input formControlName="tel_mobile" type="number"> </ion-input>
+            </ion-item>
+
+            <p>Numéro de votre société de transport</p>
+            <ion-item class="background-transparent" lines="none">
+              <ion-input formControlName="societe_transport" type="tel"> </ion-input>
+            </ion-item>
+
+            <ion-radio-group formControlName="declarant">
+              <ion-item lines="none" class="check-douane">   
+                <ion-radio value="oui" mode="md"></ion-radio>
+                <ion-label>Je suis attendu par un déclarant en Douane</ion-label>
+             
+              </ion-item>
+              <ion-item lines="none" class="check-douane">
+                <ion-radio value="nom" mode="md"></ion-radio>
+                <ion-label>Je ne suis pas attendu par un déclarant en Douane</ion-label>
+               
+              </ion-item>
+            </ion-radio-group>
+            <ion-button class="save-button" mode="md" (click)="logForm()">Enregistrer</ion-button>
+
+          </form>
+        </div>
+
+
       </ion-card-content>
 
     </ion-card>

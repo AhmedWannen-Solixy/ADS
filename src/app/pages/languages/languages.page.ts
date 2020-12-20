@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-languages',
@@ -8,7 +9,9 @@ import { Router } from '@angular/router';
 })
 export class LanguagesPage implements OnInit {
 
-  constructor( private router:Router) { }
+  constructor( 
+    public translate: TranslateService,
+    private router:Router) { }
 
   ngOnInit() {
   }
@@ -16,11 +19,12 @@ export class LanguagesPage implements OnInit {
 
   pickFlag(flag:string){
 
-
+    this.translate.setDefaultLang(flag);
       switch(flag) { 
         case "fr": { 
           localStorage.setItem('lng',  flag);
-          console.log(flag)
+       //   this.translate.setDefaultLang('fr');
+          console.log(flag);
            break; 
         } 
         case "en": { 

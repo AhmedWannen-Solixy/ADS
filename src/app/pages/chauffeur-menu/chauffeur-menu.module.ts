@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { ChauffeurMenuPageRoutingModule } from './chauffeur-menu-routing.module';
 
 import { ChauffeurMenuPage } from './chauffeur-menu.page';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ChauffeurMenuPageRoutingModule
+    ChauffeurMenuPageRoutingModule,
+    TranslateModule
   ],
   declarations: [ChauffeurMenuPage]
 })

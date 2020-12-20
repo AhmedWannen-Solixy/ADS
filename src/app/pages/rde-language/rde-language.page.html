@@ -1,0 +1,34 @@
+<ion-content scrollY="false" [fullscreen]="true">
+  <div class="logo">
+    <img src="assets/img/icon-home.png" alt="" />
+  </div>
+  <div class="container">
+    <ion-card>
+      <ion-card-header>
+        <div class="title-container" routerLink="/home">
+          <div class="icon-container">
+            <ion-icon name="home-outline" color="primary"></ion-icon>
+          </div>
+          <div class="choose"><span>Choose</span></div>
+        </div>
+      </ion-card-header>
+
+      <ion-card-content>
+        <div class="card-content">
+
+          <div class="flag" (click)="pickFlag('fr')">
+            <img  class="flag-img" src="assets/flags/france.svg" />
+          </div>
+          <div class="flag" (click)="pickFlag('en')">
+            <img class="flag-img" src="assets/flags/262-united-kingdom.svg" />
+          </div>
+
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+  <div class="copy-rght"></div>
+  <div class="custom-footer">
+    <p>CopyRight: SPED-Boulogne Calais -Version 2019.12-17</p>
+  </div>
+</ion-content>

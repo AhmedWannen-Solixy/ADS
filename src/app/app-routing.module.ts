@@ -23,6 +23,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'rde-menu',
+    loadChildren: () => import('./pages/rde-menu/rde-menu.module').then( m => m.RdeMenuPageModule)
+  },
+  {
+    path: 'rde-language',
+    loadChildren: () => import('./pages/rde-language/rde-language.module').then( m => m.RdeLanguagePageModule)
+  },
   
 
 

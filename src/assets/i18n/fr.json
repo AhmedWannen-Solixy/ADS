@@ -1,5 +1,8 @@
 {
     "status": "Connaitre mon statut douanier",
     "saveMe": "M'enregistrer sur PO3",
-    "transport": "Je transporte des animaux vivants"
+    "transport": "Je transporte des animaux vivants",
+    "create":"Créer mon compte",
+    "organize":"Organiser les contrôles de mes clients",
+    "envelop" : "Créer une enveloppe logistique"
 }

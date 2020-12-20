@@ -5,4 +5,6 @@
     "create":"Create my account",
     "organize":"Organize checks for my clients",
     "envelop" : "Create a logistics envelope"
+    "export_zone":"EXPORT ZONE"
+
 }

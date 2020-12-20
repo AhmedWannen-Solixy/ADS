@@ -19,6 +19,10 @@ const routes: Routes = [
     loadChildren: () => import('./pages/chauffeur-menu/chauffeur-menu.module').then( m => m.ChauffeurMenuPageModule)
   },
   {
+    path: 'export-zone',
+    loadChildren: () => import('./pages/export-zone/export-zone.module').then( m => m.ExportZonePageModule)
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
@@ -31,6 +35,8 @@ const routes: Routes = [
     path: 'rde-language',
     loadChildren: () => import('./pages/rde-language/rde-language.module').then( m => m.RdeLanguagePageModule)
   },
+  
+
   
 
 

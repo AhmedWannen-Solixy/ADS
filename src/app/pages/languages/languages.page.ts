@@ -14,7 +14,9 @@ export class LanguagesPage implements OnInit {
 
   pickFlag(flag: string) {
     this.translate.setDefaultLang(flag);
+
     localStorage.setItem("lng", flag);
+
 
     this.router.navigateByUrl("/directions");
   }

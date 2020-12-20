@@ -4,7 +4,10 @@
     "transport": "Je transporte des animaux vivants",
     "create":"Créer mon compte",
     "organize":"Organiser les contrôles de mes clients",
-    "envelop" : "Créer une enveloppe logistique"
-    "export_zone":"ZONE EXPORT"
+    "envelop" : "Créer une enveloppe logistique",
+    "export_zone":"ZONE EXPORT",
+    "formulaire":"Completer / accomplir les formalités douanière",
+    "badge":"Demander une badge d'accès"
+
 
 }

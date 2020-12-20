@@ -4,7 +4,8 @@
     "transport": "I'm transporting live animals",
     "create":"Create my account",
     "organize":"Organize checks for my clients",
-    "envelop" : "Create a logistics envelope"
-    "export_zone":"EXPORT ZONE"
-
+    "envelop" : "Create a logistics envelope",
+    "export_zone":"EXPORT ZONE",
+"formulaire":"Complete / accomplish customs formalities",
+"badge":"Request an access badge"
 }

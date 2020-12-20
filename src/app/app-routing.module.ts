@@ -35,6 +35,11 @@ const routes: Routes = [
     path: 'rde-language',
     loadChildren: () => import('./pages/rde-language/rde-language.module').then( m => m.RdeLanguagePageModule)
   },
+ 
+  {
+    path: 'chauffeur-menu2',
+    loadChildren: () => import('./pages/chauffeur-menu2/chauffeur-menu2.module').then( m => m.ChauffeurMenu2PageModule)
+  },
   
 
   

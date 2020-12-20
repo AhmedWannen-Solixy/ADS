@@ -1,5 +1,6 @@
 {
     "status": "Check my customs status",
     "saveMe": "Register on PO3",
-    "transport": "I'm transporting live animals"
+    "transport": "I'm transporting live animals",
+    "export_zone":"EXPORT ZONE"
 }

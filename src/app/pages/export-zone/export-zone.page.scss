@@ -1,17 +1,18 @@
+.container {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+  color: var(--ion-color-primary);
+}
+ion-card-content {
+  color: var(--ion-color-primary);
+}
 .logo {
   background: #fff;
   width: 70%;
   margin: 0 auto;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
-  text-align: center;
-}
-.container {
-  position: absolute;
-  width: 80%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
 }
 .img-container {
@@ -46,7 +47,13 @@
   display: flex;
   border-bottom: 1px solid #007871;
 }
-
+.background-transparent {
+  border: 1px solid #007871;
+  border-radius: 7px;
+  --background: transparent;
+  --ripple-color: transparent;
+  --background-activated: transparent;
+}
 .custom-footer {
   color: #fff;
   text-align: center;
@@ -57,4 +64,3 @@
   transform: translate(-50%, -50%);
   font-size: 12px;
 }
-

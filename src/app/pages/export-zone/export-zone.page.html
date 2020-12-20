@@ -1,0 +1,72 @@
+<ion-content>
+
+  <div class="logo">
+    <img src="assets/img/icon-home.png" alt="">
+  </div>
+
+  <div class="container">
+    <ion-card>
+      <ion-card-header>
+        <div class="title-container" routerLink="/home">
+          <div class="icon-container">
+            <ion-icon name="home-outline" color="primary"></ion-icon>
+          </div>
+          <div class="choose"><span>{{'export_zone' | translate}}</span></div>
+        </div>
+      </ion-card-header>
+
+      <ion-card-content>
+        <form [formGroup]="exportForm" style="margin: 10px 5px;">
+
+          <p >Plaque d'immatruculation avant</p>
+          <ion-item class="background-transparent" lines="none">
+           
+            <ion-input formControlName="lastname" ></ion-input>
+          </ion-item>
+          <div class="validation-errors">
+            <ng-container *ngFor="let validation of validationMessages.lastname">
+              <div
+                *ngIf="exportForm.get('lastname').hasError(validation.type) && (exportForm.get('lastname').dirty || exportForm.get('lastname').touched)">
+                <ion-icon name="information-circle-outline"></ion-icon> {{ validation.message }}
+              </div>
+            </ng-container>
+          </div>
+  
+  
+          <p>Numéro de votre place de parking</p>
+          <ion-item class="background-transparent" lines="none">
+         
+            <ion-input formControlName="firstname" ></ion-input>
+          </ion-item>
+  
+         
+  
+          <p>Numéro de votre Téléphone mobile/GSM</p>
+          <ion-item class="background-transparent" lines="none">
+                     <ion-input formControlName="email" type="tel"> </ion-input>
+          </ion-item>
+       
+  
+  
+  
+          <p>Numéro de votre société de transport</p>
+          <ion-item class="background-transparent" lines="none">
+                        <ion-input formControlName="tel_fixe" type="tel" > </ion-input>
+          </ion-item>
+        
+         
+  
+        </form>
+       
+      </ion-card-content>
+
+    </ion-card>
+
+  </div>
+
+  <div class="custom-footer">
+    <p>
+      CopyRight: SPED-Boulogne Calais -Version 2019.12-17
+    </p>
+  </div>
+</ion-content>

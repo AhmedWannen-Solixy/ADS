@@ -19,10 +19,16 @@ const routes: Routes = [
     loadChildren: () => import('./pages/chauffeur-menu/chauffeur-menu.module').then( m => m.ChauffeurMenuPageModule)
   },
   {
+    path: 'export-zone',
+    loadChildren: () => import('./pages/export-zone/export-zone.module').then( m => m.ExportZonePageModule)
+  },
+  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  
+
   
 
 

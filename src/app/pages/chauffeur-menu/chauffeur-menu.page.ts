@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { TranslateService } from '@ngx-translate/core';
+
 @Component({
   selector: 'app-chauffeur-menu',
   templateUrl: './chauffeur-menu.page.html',
@@ -7,9 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChauffeurMenuPage implements OnInit {
 
-  constructor() { }
+  constructor(public translate: TranslateService) { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
 
 }

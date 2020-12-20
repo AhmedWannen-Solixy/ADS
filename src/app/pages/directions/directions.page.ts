@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-directions',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectionsPage implements OnInit {
   lng:string;
-  constructor() { }
+  constructor(public translate: TranslateService) { }
 
   ngOnInit() {
 

@@ -4,160 +4,74 @@
   </div>
   <div class="container">
     <ion-card>
-        <ion-card-header>
-          <div class="title-container" routerLink="/home">
-            <div class="icon-container">
-              <ion-icon name="home-outline" color="primary"></ion-icon>
-            </div>
-            <div class="choose"><span>Choose</span></div>
+      <ion-card-header>
+        <div class="title-container" routerLink="/home">
+          <div class="icon-container">
+            <ion-icon name="home-outline" color="primary"></ion-icon>
           </div>
+          <div class="choose"><span>Choose</span></div>
+        </div>
       </ion-card-header>
-   
 
-      <ion-card-content class="flag_container">
-        <ion-grid>
-          <ion-row>
-            <ion-col (click)="pickFlag('fr')" >
-              <div>
-                <img class="flag" src="assets/flags/france.svg" />
-              </div>
-            </ion-col>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('en')"
-                  src="assets/flags/262-united-kingdom.svg"
-                />
-              </div>
-            </ion-col>
-          </ion-row>
 
-          <ion-row>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('gr')"
-                  src="assets/flags/066-germany.svg"
-                />
-              </div>
-            </ion-col>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('sp')"
-                  src="assets/flags/044-spain.svg"
-                />
-              </div>
-            </ion-col>
-          </ion-row>
+      <ion-card-content>
+        <div class="card-content">
 
-          <ion-row>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('lit')"
-                  src="assets/flags/025-lithuania.svg"
-                />
-              </div>
-            </ion-col>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('hun')"
-                  src="assets/flags/053-hungary.svg"
-                />
-              </div>
-            </ion-col>
-          </ion-row>
 
-          <ion-row>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('pol')"
-                  src="assets/flags/108-poland.svg"
-                />
-              </div>
-            </ion-col>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('rom')"
-                  src="assets/flags/050-romania.svg"
-                />
-              </div>
-            </ion-col>
-          </ion-row>
+          <div class="flag" (click)="pickFlag('fr')">
+            <img  class="flag-img" src="assets/flags/france.svg" />
+          </div>
+          <div class="flag" (click)="pickFlag('en')">
+            <img class="flag-img" src="assets/flags/262-united-kingdom.svg" />
+          </div>
 
-          <ion-row>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('cz')"
-                  src="assets/flags/061-czech-republic.svg"
-                />
-              </div>
-            </ion-col>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('bul')"
-                  src="assets/flags/135-bulgaria.svg"
-                />
-              </div>
-            </ion-col>
-          </ion-row>
-          <ion-row>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('tr')"
-                  src="assets/flags/119-turkey.svg"
-                />
-              </div>
-            </ion-col>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('rs')"
-                  src="assets/flags/228-russia.svg"
-                />
-              </div>
-            </ion-col>
-          </ion-row>
-          <ion-row>
-            <ion-col>
-              <div>
-                <img
-                  class="flag"
-                  (click)="pickFlag('it')"
-                  src="assets/flags/011-italy.svg"
-                />
-              </div>
-            </ion-col>
-            <ion-col>
-              <div></div>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
+          <div class="flag" (click)="pickFlag('gr')">
+            <img class="flag-img" src="assets/flags/066-germany.svg" />
+          </div>
+          <div class="flag" (click)="pickFlag('sp')">
+            <img class="flag-img" src="assets/flags/044-spain.svg" />
+          </div>
+
+          <div class="flag" (click)="pickFlag('lit')">
+            <img  class="flag-img"src="assets/flags/025-lithuania.svg" />
+          </div>
+
+          <div class="flag" (click)="pickFlag('hun')">
+            <img class="flag-img" src="assets/flags/053-hungary.svg" />
+          </div>
+
+          <div class="flag" (click)="pickFlag('pol')">
+            <img class="flag-img" src="assets/flags/108-poland.svg" />
+          </div>
+          <div class="flag" (click)="pickFlag('rom')">
+            <img class="flag-img" src="assets/flags/050-romania.svg" />
+          </div>
+
+          <div class="flag" (click)="pickFlag('cz')">
+            <img class="flag-img" src="assets/flags/061-czech-republic.svg" />
+          </div>
+
+          <div class="flag" (click)="pickFlag('bul')">
+            <img class="flag-img" src="assets/flags/135-bulgaria.svg" />
+          </div>
+
+          <div class="flag" (click)="pickFlag('tr')">
+            <img class="flag-img" src="assets/flags/119-turkey.svg" />
+          </div>
+
+          <div class="flag" (click)="pickFlag('rs')">
+            <img class="flag-img" src="assets/flags/228-russia.svg" />
+          </div>
+
+          <div class="flag" (click)="pickFlag('it')">
+            <img  class="flag-img" src="assets/flags/011-italy.svg" />
+          </div>
+        </div>
       </ion-card-content>
     </ion-card>
   </div>
   <div class="copy-rght"></div>
   <div class="custom-footer">
-    <p >
-      CopyRight: SPED-Boulogne Calais -Version 2019.12-17
-    </p>
+    <p>CopyRight: SPED-Boulogne Calais -Version 2019.12-17</p>
   </div>
 </ion-content>

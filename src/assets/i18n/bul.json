@@ -1,5 +1,8 @@
 {
     "status": "Запознаване с митническия ми статус",
     "saveMe": "Регистриране на РО3",
-    "transport": "Транспортирам живи животни"
+    "transport": "Транспортирам живи животни",
+    "create":"Elkészíteni az felhasználófiókom",
+    "organize":"Megszervezem az ügyfeleim ellenőrzését",
+    "envelop" : "създайте логистичен плик"
 }

@@ -1,5 +1,8 @@
 {
     "status": "Seznámit se s mým celním statusem",
     "saveMe": "Zaregistrovat se na PO3",
-    "transport": "Přepravuji živá zvířata"
+    "transport": "Přepravuji živá zvířata",
+    "create":"vytvořit můj účet",
+    "organize":"Organiser les contrôles de mes clients",
+    "envelop" : "Créer une enveloppe logistique"
 }

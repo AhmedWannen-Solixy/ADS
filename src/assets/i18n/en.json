@@ -2,5 +2,9 @@
     "status": "Check my customs status",
     "saveMe": "Register on PO3",
     "transport": "I'm transporting live animals",
+    "create":"Create my account",
+    "organize":"Organize checks for my clients",
+    "envelop" : "Create a logistics envelope"
     "export_zone":"EXPORT ZONE"
+
 }

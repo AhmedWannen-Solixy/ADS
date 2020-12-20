@@ -3,6 +3,7 @@
     <img src="assets/img/icon-home.png" alt="">
   </div>
   <div class="container">
+
     <ion-card routerLink="/home">
       <ion-card-header>
         <div class="title-container">
@@ -10,26 +11,49 @@
             <ion-icon name="home-outline"></ion-icon>
           </div>
           <div style="width: 100%;"><span>Choose</span></div>
+
         </div>
 
       </ion-card-header>
       <ion-card-content>
-       
+
+
 
         <div class="img-container">
-          <div>
+          <ion-row>
+            <ion-col><img src="assets/flags/en.jpg" alt=""></ion-col>
+            <ion-col></ion-col>
+            <ion-col><img src="assets/flags/en.jpg" alt=""></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><b>CALAIS</b></ion-col>
+            <ion-col>
+              <ion-icon name="arrow-forward-outline" color="primary"></ion-icon>
+            </ion-col>
+            <ion-col><b>DOVER</b></ion-col>
+          </ion-row>
 
-          </div>
 
-          <ion-label><b>CHAUFFEURS</b></ion-label>
         </div>
         <div class="img-container">
-          <div>
-
-          </div>
-          <ion-label><b> RDE / COMMIS</b></ion-label>
+          <ion-row>
+            <ion-col><img src="assets/flags/en.jpg" alt=""></ion-col>
+            <ion-col></ion-col>
+            <ion-col><img src="assets/flags/en.jpg" alt=""></ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col><b>DOVER</b></ion-col>
+            <ion-col>
+              <ion-icon name="arrow-forward-outline" color="primary"></ion-icon>
+            </ion-col>
+            <ion-col><b>CALAIS</b></ion-col>
+          </ion-row>
         </div>
       </ion-card-content>
+
+    </ion-card>
+  </div>
+
 
     </ion-card>
   </div>
@@ -39,3 +63,10 @@
     </p>
   </div>
 </ion-content>
+<ion-footer>
+  <ion-toolbar position="bottom" mode="ios" class="custom-footer">
+    <b>
+      CopyRight: SPED-Boulogne Calais -Varsion 2019.12-17
+    </b>
+  </ion-toolbar>
+</ion-footer>

@@ -6,7 +6,6 @@
   transform: translate(-50%, -50%);
   text-align: center;
   height: 60%;
-
 }
 .crd-header {
   padding-bottom: 1px;
@@ -54,27 +53,23 @@
   font-size: 12px;
 }
 
-.card-content{
+.card-content {
   height: 50vh;
   overflow-y: scroll;
-  }
-
-
+}
 
 .flag {
-
   padding-left: 10%;
   padding-right: 10%;
   width: 50%;
   float: left;
-
 }
 
-.flag-img{
+.flag-img {
   border: 1px solid rgba(221, 221, 221, 0.884);
-    border-radius: 4px;
-    padding-right: 2px;
-    padding-left: 1px;
+  border-radius: 4px;
+  padding-right: 2px;
+  padding-left: 1px;
 }
 
 /* Solid border */
@@ -96,4 +91,31 @@ hr.solid {
 
 .icon {
   position: absolute;
+}
+
+@media only screen and (min-width: 1500px) {
+  .logo {
+    width: 15vw;
+  }
+  .title-container {
+    padding: 1%;
+    font-size: 30px;
+  }
+  .choose,
+  .custom-footer,
+  b {
+    font-size: 30px;
+  }
+  .flag {
+    padding: 1%;
+    width: 22vh;
+    float: left;
+  }
+  .icon-container {
+    padding: 1%;
+    ion-icon{
+      width: 60px;
+      height: 60px;
+    }
+  }
 }

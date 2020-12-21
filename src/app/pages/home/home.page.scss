@@ -35,14 +35,42 @@
 .list-img {
   width: 40%;
   height: 40%;
-  
+
   filter: invert(34%) sepia(141%) saturate(415%) hue-rotate(119deg) brightness(107%) contrast(83%);
 }
-span{
+span {
   color: var(--ion-color-primary);
 }
 
-.title{
+.title {
   padding-top: 2%;
   border-top: 1px solid #007871;
+}
+
+@media only screen and (min-width: 1500px) {
+  .logo {
+    width: 15vw;
+  }
+  .ipad-container {
+    display: flex;
+    padding-bottom: 6vh;
+  }
+  .img-container {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .container {
+    width: 50vw;
+  }
+  .custom-footer {
+    font-size: 20px;
+  }
+  .title,
+  b {
+    font-size: 30px;
+  }
+  .list-img {
+    width: 9vw;
+    height: 4vw;
+  }
 }

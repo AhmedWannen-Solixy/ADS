@@ -63,3 +63,25 @@
     font-size: 12px;
   }
   
+
+  @media only screen and (min-width: 1500px) {
+    .logo {
+      width: 15vw;
+    }
+    .choose {
+        font-size: 30px;
+    }
+    b {
+        font-size: 20px;
+    }
+    .icon-container {
+        padding: 1%;
+      }
+    ion-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .custom-footer {
+        font-size: 20px;
+    }
+}

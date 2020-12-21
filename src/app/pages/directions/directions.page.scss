@@ -58,3 +58,31 @@
   font-size: 12px;
 }
 
+@media only screen and (min-width: 1500px) {
+  .logo {
+    width: 15vw;
+  }
+  .title-container {
+    padding: 1%;
+    font-size: 30px;
+  }
+  .custom-footer {
+    font-size: 20px;
+}
+  .choose,  b {
+    font-size: 30px;
+  }
+  .img-container img {
+    width: 10vw;
+  }
+  .container {
+    width: 28vw;
+  }
+  .icon-container {
+    padding: 1%;
+  }
+  ion-icon {
+    width: 60px;
+    height: 60px;
+  }
+}

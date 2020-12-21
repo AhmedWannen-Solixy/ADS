@@ -61,5 +61,33 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 12px;
-  }
-  
+}
+
+@media only screen and (min-width: 1500px) {
+    .logo {
+        width: 15vw;
+    }
+    .browser-container {
+        display: flex;
+        width: 100%;
+        padding-bottom: 10vh;
+
+        a {
+            width: 28%;
+            margin: 0 auto;
+        }
+    }
+    .choose {
+        font-size: 30px;
+    }
+    b {
+        font-size: 20px;
+    }
+    ion-icon {
+        width: 60px;
+        height: 60px;
+    }
+    .custom-footer {
+        font-size: 20px;
+    }
+}

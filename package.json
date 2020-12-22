@@ -1,5 +1,5 @@
 {
-  "name": "adc",
+  "name": "CalaisPort",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "resources": "capacitor-resources -p android"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +28,8 @@
     "@ionic/angular": "^5.0.0",
     "@ngx-translate/core": "^13.0.0",
     "@ngx-translate/http-loader": "^6.0.0",
+    "capacitor-resources": "^2.0.5",
+    "cordova-plugin-app-name": "1.0.7",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
@@ -70,7 +73,10 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-keyboard": {},
-      "cordova-plugin-ionic-webview": {}
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-app-name": {
+        "APP_NAME": "CalaisPort"
+      }
     },
     "platforms": []
   }

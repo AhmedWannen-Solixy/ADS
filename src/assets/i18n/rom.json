@@ -2,5 +2,11 @@
 {
     "status": "Vreau să cunosc statutul meu vamal",
     "saveMe": "Mă înregistrez pe PO3",
-    "transport": "Transport animale vii"
+    "transport": "Transport animale vii",
+    "create":"Crează-mi contul",
+    "organize":"Organizați cecuri pentru clienții mei",
+    "envelop" : "Crearea unui set de documente logistice",
+    "export_zone":"EXPORT ZONE",
+    "formulaire":"Completez / finalizez formalitățile mele vamale",
+    "badge":"Solicitați o insignă de acces"
 }

@@ -30,7 +30,7 @@
     align-items: center;
     display: flex;
     color: var(--ion-color-primary);
-    font-weight: BOLD;
+    font-family:Futurabook !important;
     font-size: 16px;
 }
 
@@ -70,6 +70,8 @@
     }
     .choose {
         font-size: 30px;
+        font-family:Futurabook !important;
+
     }
     b {
         font-size: 20px;

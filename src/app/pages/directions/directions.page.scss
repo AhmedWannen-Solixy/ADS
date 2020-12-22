@@ -37,8 +37,8 @@
   align-items: center;
   display: flex;
   color: var(--ion-color-primary);
-  font-weight: BOLD;
   font-size: 16px;
+  font-family:Futurabook !important;
 }
 
 .title-container {
@@ -71,6 +71,8 @@
 }
   .choose,  b {
     font-size: 30px;
+    font-family:Futurabook !important;
+
   }
   .img-container img {
     width: 10vw;

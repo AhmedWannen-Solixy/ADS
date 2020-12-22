@@ -39,7 +39,7 @@
   align-items: center;
   display: flex;
   color: var(--ion-color-primary);
-  font-weight: BOLD;
+  font-family:Futurabook !important;
   font-size: 16px;
 }
 .custom-footer {
@@ -105,6 +105,7 @@ hr.solid {
   .custom-footer,
   b {
     font-size: 30px;
+    
   }
   .flag {
     padding: 1%;

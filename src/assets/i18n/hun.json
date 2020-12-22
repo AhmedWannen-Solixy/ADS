@@ -1,5 +1,11 @@
 {
     "status": "Vámkezelési állapot",
     "saveMe": "Regisztrálás a PO3-ra",
-    "transport": "Élő állatokat szállítok"
+    "transport": "Élő állatokat szállítok",
+    "organize":"Organize checks for my clients",
+    "create":"Elkészíteni az felhasználófiókom",
+    "envelop" : "logisztikai egység létrehozása",
+    "export_zone":"EXPORT ZONE",
+    "formulaire":"A vámeljárás kiegészítése / elvégzése",
+    "badge":"Kérjen hozzáférési jelvényt"
 }

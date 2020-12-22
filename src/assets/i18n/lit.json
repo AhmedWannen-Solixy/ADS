@@ -1,5 +1,11 @@
 {
     "status": "Žinoti mano muitinės statusą",
     "saveMe": "Man užsiregistruoti PO3",
-    "transport": "Aš transportuoju gyvus gyvūnus "
+    "transport": "Aš transportuoju gyvus gyvūnus",
+    "create":"sukurti mano paskyra",
+    "organize":"Organizuokite mano klientų patikrinimus",
+    "envelop" : "sukurti logistinį voką",
+    "export_zone":"EXPORT ZONE",
+    "formulaire":"Papildyti / atlikti savo muitinės formalumus",
+    "badge":"Pateikite prieigos ženklo užklausą"
 }

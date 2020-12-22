@@ -1,5 +1,11 @@
 {
     "status": "Conocer mi estatus aduanero",
     "saveMe": "Regístreme en PO3",
-    "transport": "Transporto animales vivos"
+    "transport": "Transporto animales vivos",
+    "create":"Crear mi cuenta",
+    "organize":"Organizar cheques para mis clientes",
+    "envelop" : "Crear un sobre logístico",
+    "export_zone":"EXPORT ZONE",
+    "formulaire":"Completar/llevar a cabo mis formalidades aduaneras",
+    "badge":"Solicite una credencial de acceso"
 }

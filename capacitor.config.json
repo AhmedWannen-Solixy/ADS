@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "adc",
+  "appName": "CalaisPort",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",

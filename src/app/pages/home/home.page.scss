@@ -38,6 +38,12 @@
 
   filter: invert(34%) sepia(141%) saturate(415%) hue-rotate(119deg) brightness(107%) contrast(83%);
 }
+.list-img2 {
+  width: 40%;
+  height: 40%;
+
+  filter: invert(1%) sepia(141%) saturate(415%) hue-rotate(119deg) brightness(107%) contrast(83%);
+}
 span {
   color: var(--ion-color-primary);
 }
@@ -45,6 +51,8 @@ span {
 .title {
   padding-top: 2%;
   border-top: 1px solid #007871;
+  
+
 }
 
 @media only screen and (min-width: 1500px) {

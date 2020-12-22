@@ -2,5 +2,10 @@
     "status": "Mostra il mio stato doganale",
     "saveMe": "Mi registro su PO3",
     "transport": "Trasporto animali vivi",
-    "export_zone":"ZONE EXPORT"
+    "export_zone":"ZONE EXPORT" ,
+    "create":"Creare il mio account",
+    "organize":"Organizza controlli per i miei clienti",
+    "envelop" : "Crea una busta logistica",
+    "formulaire":"Completare / assolvere le mie formalità doganali",
+    "badge":"Richiedi un badge di accesso"
 }

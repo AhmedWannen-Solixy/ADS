@@ -1,5 +1,11 @@
 {
     "status": "Poznaj swój status celny",
     "saveMe": "Zarejestruj się na PO3",
-    "transport": "Przewożę żywe zwierzęta"
+    "transport": "Przewożę żywe zwierzęta",
+    "create":"Stworzyć moje konto",
+    "organize":"Organizuję czeki dla moich klientów",
+    "envelop" : "Stwórz kopertę logistyczną",
+    "export_zone":"EXPORT ZONE",
+    "formulaire":"Uzupełnij / zakończ swoje formalności celne",
+    "badge":"Poproś o plakietkę dostępu"
 }

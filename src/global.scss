@@ -28,3 +28,13 @@
 ion-content {
     --background: #007871;
 }
+@font-face {   
+    font-family: 'Futurabook';    //This is what we are going to call
+    src: url('/assets/FontsFree-Net-FuturaStd-Book.ttf');
+  }
+
+
+  @font-face {   
+    font-family: 'Futurabold';    //This is what we are going to call
+    src: url('/assets/FuturaStd-Bold.ttf');
+  }

@@ -62,4 +62,9 @@
     transform: translate(-50%, -50%);
     font-size: 12px;
   }
+
+  .card-content {
+    height: 50vh;
+    overflow-y: scroll;
+  }
   

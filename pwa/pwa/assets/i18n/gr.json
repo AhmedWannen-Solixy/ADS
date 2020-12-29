@@ -1,0 +1,11 @@
+{
+    "status": "Ich kenne meinen Zollstatus",
+    "saveMe": "Ich melde mich auf PO3 an",
+    "transport": "Ich transportiere lebende Tiere",
+    "create":"Erstelle meinen Konto",
+    "organize":"Organisieren Sie Schecks für meine Kunden",
+    "envelop" : "Ich erstelle einen Logistik-Umschlag",
+    "export_zone":"ZONE EXPORT",
+    "formulaire":"Ich erledige/vollende meine Zollformalitäten",
+    "badge":"Fordern Sie einen Zugangsausweis an"
+}

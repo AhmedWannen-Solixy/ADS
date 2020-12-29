@@ -11,8 +11,10 @@ export class HomePage {
   constructor( private translate: TranslateService) {
   //  this.translate.setDefaultLang('fr');
   }
-translateLang(){
-///  this.translate.setDefaultLang('fr');
- // this.nStorage.setItem('defaultLang', 'fr');
-}
+  onRDE(){
+      this.translate.setDefaultLang('fr');
+  }
+  
+
+
 }

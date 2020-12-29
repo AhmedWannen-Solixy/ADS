@@ -44,7 +44,11 @@
     text-align: center;
     background: #cce4e2;
     margin: 4% 0;
-    display: flex;
+    //display: flex;
+    img{
+        height: 9vh;
+        width: 9vh;
+    }
 }
 .img-container div {
     width: 100%;
